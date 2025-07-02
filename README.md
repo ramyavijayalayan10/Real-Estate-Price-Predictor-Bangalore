@@ -65,7 +65,7 @@ Compatible with both Google Colab and VS Code. Dataset assumed to be stored loca
 ```bash
 bangalore-real-estate-price-predictor/
 ├── model-training/       # Colab notebook with full ML pipeline
-│   └── Real_Estate_Price-Prediction_Bangalore.ipynb
+│   └── Real_Estate_Price_Prediction_Bangalore.ipynb
 ├── data/                 # Cleaned dataset 
 │   └── cleaned_data.csv
 ├── model/                # Trained model file
