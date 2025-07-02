@@ -12,7 +12,7 @@ Built using Google Colab, trained with Scikit-Learn, served with Flask, and depl
 
 ## 🎬 Demo
 
-📺 [Watch a demo video](https://drive.google.com/your-demo-link-here)  
+📺 [Watch a demo video](https://drive.google.com/file/d/1hx4aatWpMAmCRBfmODvfTPj2Z17UD0Qm/view?usp=sharing)  
 🌐 [Try the live app](https://your-app-url.onrender.com)
 
 ---
