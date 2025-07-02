@@ -49,12 +49,12 @@ All model building steps are documented in a single Google Colab notebook:
 
 | Layer      | Technology Used              |
 |------------|------------------------------|
-| Data & ML  | Python, Pandas, NumPy, Scikit-Learn |
+| Data & ML  | Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-Learn |
 | Training   | Google Colab (Jupyter-compatible notebook) |
 | Backend    | Flask (API endpoint for predictions) |
 | Frontend   | HTML, CSS, JavaScript |
-| Hosting    | Render (Free-tier app hosting) |
-| Demo Video | Google Drive (view-only access) |
+| Hosting    | Render |
+| Demo Video | Google Drive |
 
 ---
 
@@ -64,7 +64,7 @@ All model building steps are documented in a single Google Colab notebook:
 bangalore-price-predictor/
 ├── model-training/       # Colab notebook with full ML pipeline
 │   └── Bangalore_Price_Prediction_Colab.ipynb
-├── data/                 # Cleaned dataset (optional)
+├── data/                 # Cleaned dataset 
 │   └── cleaned_data.csv
 ├── model/                # Trained model file
 │   └── price_model.pkl
@@ -74,7 +74,7 @@ bangalore-price-predictor/
 │   ├── index.html
 │   ├── app.css
 │   └── app.js
-├── demo/                 # Demo video (optional if hosted externally)
+├── demo/                 # Demo video 
 │   └── app-demo.mp4
 ├── requirements.txt      # Python dependencies
 ├── LICENSE.md            # License terms (CC BY-NC-ND 4.0)
