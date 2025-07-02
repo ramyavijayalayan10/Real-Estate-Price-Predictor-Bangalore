@@ -70,9 +70,9 @@ bangalore-real-estate-price-predictor/
 │   └── cleaned_data.csv
 ├── model/                # Trained model file
 │   └── price_model.pkl
-├── api/                  # Flask API for prediction
+├── flask-api-backend/                  # Flask API for prediction
 │   └── app.py
-├── client/               # Frontend files
+├── frontend/               # Frontend files
 │   ├── index.html
 │   ├── app.css
 │   └── app.js
