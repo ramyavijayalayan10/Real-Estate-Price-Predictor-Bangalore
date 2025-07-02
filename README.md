@@ -43,7 +43,8 @@ It contains the complete machine learning pipeline:
 - 📦 Exporting model as `.pkl` for Flask usage
 
 📁 See notebook: [`/model-training/Real_Estate_Price_Prediction_Bangalore.ipynb`](model-training/Real_Estate_Price_Prediction_Bangalore.ipynb)
-Compatible with both Google Colab and VS Code. Dataset assumed to be stored locally in the `/data/` folder.
+Compatible with both Google Colab and Jupyter. 
+Dataset stored locally in the `/data/` folder.
 
 ---
 
