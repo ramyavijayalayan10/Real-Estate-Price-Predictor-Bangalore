@@ -1,1 +1,17 @@
+# Core data manipulation and analysis
+pandas
+numpy
+
+# Machine learning model training
+scikit-learn==1.7.0
+
+# Web framework for backend API
+flask
+
+# Visualization libraries
+matplotlib
+seaborn
+
+# Jupyter compatibility
+notebook
 
