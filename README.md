@@ -32,7 +32,8 @@ The model was trained on real housing data, cleaned and engineered inside a Goog
 
 ## 📊 Model Training & EDA
 
-All model building steps are documented in a single Google Colab notebook:
+This notebook was originally developed in **Google Colab** and later adapted for local execution. 
+It contains the complete machine learning pipeline:
 
 - ✅ Data Wrangling
 - 📈 Exploratory Data Analysis (EDA)
@@ -42,6 +43,7 @@ All model building steps are documented in a single Google Colab notebook:
 - 📦 Exporting model as `.pkl` for Flask usage
 
 📁 See notebook: [`model-training/Bangalore_Price_Prediction_Colab.ipynb`](model-training/Bangalore_Price_Prediction_Colab.ipynb)
+Compatible with both Google Colab and VS Code. Dataset assumed to be stored locally in the `/data/` folder.
 
 ---
 
