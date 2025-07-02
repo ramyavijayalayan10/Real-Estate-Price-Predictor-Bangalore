@@ -1,6 +1,6 @@
 # 🏠 Real Estate Price Predictor - Bangalore
 
-A complete machine learning web application to predict real estate prices in Bangalore based on location, square footage, and number of bedrooms/bathrooms.  
+A complete Machine Learning web application to predict real estate prices in Bangalore based on location, square footage, and number of bedrooms/bathrooms.  
 Built using Google Colab, trained with Scikit-Learn, served with Flask, and deployed publicly via Render.  
 
 ![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)
