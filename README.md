@@ -79,6 +79,7 @@ bangalore-price-predictor/
 ├── requirements.txt      # Python dependencies
 ├── LICENSE.md            # License terms (CC BY-NC-ND 4.0)
 └── README.md             # Project overview and setup
+```
 
 ## 📜 License
 
