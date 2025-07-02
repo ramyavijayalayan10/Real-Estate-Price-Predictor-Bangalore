@@ -60,7 +60,19 @@ Dataset stored locally in the `/data/` folder.
 | Demo Video | Google Drive |
 
 ---
+## 🧰 Development Tools & Environments
 
+This project was designed and tested using:
+
+- **Google Colab** – For model training, data preprocessing, and experimentation
+- **PyCharm** – Backend development with Flask, including API setup and testing
+- **VS Code** – Frontend UI design and integration with the backend
+- **Postman** – API testing, validation, and payload inspection
+- **GitHub** – Version control, collaboration, and public sharing
+
+Compatible with local systems using Jupyter, VS Code, or any Python-supported IDE.
+
+---
 ## 📁 Folder Structure
 
 ```bash
