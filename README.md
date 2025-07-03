@@ -13,7 +13,7 @@ Built using Google Colab, trained with Scikit-Learn, served with Flask, and depl
 ## 🎬 Demo
 
 📺 [Watch the demo video](https://drive.google.com/file/d/1hx4aatWpMAmCRBfmODvfTPj2Z17UD0Qm/view?usp=sharing)  
-🌐 [Try the live app]((https://real-estate-house-price-predictor.onrender.com/))
+🌐 [Try the live app]([(https://real-estate-house-price-predictor.onrender.com/)](https://real-estate-house-price-predictor.onrender.com/))
 
 ---
 
