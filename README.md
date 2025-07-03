@@ -80,11 +80,15 @@ bangalore-real-estate-price-predictor/
 ├── model-training/       # Colab notebook with full ML pipeline
 │   └── Real_Estate_Price_Prediction_Bangalore.ipynb
 ├── data/                 # Cleaned dataset 
-│   └── cleaned_data.csv
+│   └── Bengaluru_House_Data.csv
 ├── model/                # Trained model file
-│   └── price_model.pkl
-├── flask-api-backend/                  # Flask API for prediction
+│   └── price__prediction_model.pkl
+├── api/                  # Flask API for prediction
 │   └── app.py
+|   └── utility.py
+|   └── artifacts/
+|        └── columns_blr.json
+|        └── price_prediction_model.pkl
 ├── frontend/               # Frontend files
 │   ├── index.html
 │   ├── app.css
