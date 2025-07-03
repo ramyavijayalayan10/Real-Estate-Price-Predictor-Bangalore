@@ -58,6 +58,13 @@ function onClickedResetForm() {
 
 function onPageLoad() {
   console.log("document loaded");
+
+  // ⬇️ Reset form on page load
+  document.getElementById("uiSqft").value = "";
+  document.getElementsByName("uiBHK").forEach(r => r.checked = false);
+  document.getElementsByName("uiBathrooms").forEach(r => r.checked = false);
+  document.getElementById("uiLocations").selectedIndex = 0;
+  document.getElementById("uiEstimatedPrice").innerHTML = "";
   var url = "http://127.0.0.1:5000/get_location_names"; // Use this if you're NOT using nginx
   // var url = "/api/get_location_names"; // Uncomment if using nginx
 
@@ -66,14 +73,17 @@ function onPageLoad() {
     if (data) {
       var locations = data.locations;
       var uiLocations = document.getElementById("uiLocations");
+      if (!uiLocations) {
+        console.error("Dropdown element with id='uiLocations' not found");
+      }
       $('#uiLocations').empty();
       $('#uiLocations').append(new Option("Choose a Location", "", false, false)); // Placeholder
-      for (var i in locations) {
-        var opt = new Option(locations[i]);
-        $('#uiLocations').append(opt);
-      }
+      locations.forEach(function(location) {
+        $('#uiLocations').append(new Option(location));
+      });
     }
   });
 }
 
 window.onload = onPageLoad;
+
