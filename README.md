@@ -9,7 +9,7 @@ Built using Google Colab, trained with Scikit-Learn, served with Flask, and depl
 ![Pandas](https://img.shields.io/badge/Library-Pandas-darkblue?logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/Library-NumPy-blue?logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-green?logo=matplotlib&logoColor=white)
-![Deployed on Render](https://img.shields.io/badge/Hosted%20on-Render-seablue)
+![Deployed on Render](https://img.shields.io/badge/Hosted%20on-Render-yellow)
 
 
 ---
