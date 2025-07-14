@@ -109,7 +109,7 @@ View full terms in [LICENSE.md](LICENSE.md) or [here](https://creativecommons.or
 
 ---
 
-## ✨ Credits
+## ✨ Author & Date 
 
 Created by Ramya Vijayalayan as a portfolio project  
 Powered by data-driven insights and deployed via Render
