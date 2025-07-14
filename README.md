@@ -4,9 +4,9 @@ A complete Machine Learning web application to predict real estate prices in Ban
 Built using Google Colab, trained with Scikit-Learn, served with Flask, and deployed publicly via Render.  
 
 ![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)
-![Made with Flask](https://img.shields.io/badge/Backend-Flask-blue)
+![Made with Flask](https://img.shields.io/badge/Backend-Flask-yellow)
 ![Pandas](https://img.shields.io/badge/Library-Pandas-150458?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/Library-NumPy-013243?logo=numpy&logoColor=white)
+![NumPy](https://img.shields.io/badge/Library-NumPy-013243?logo=numpy&logoColor=blue)
 ![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-20232A?logo=matplotlib&logoColor=white)
 ![Deployed on Render](https://img.shields.io/badge/Hosted%20on-Render-green)
 
