@@ -5,10 +5,10 @@ Built using Google Colab, trained with Scikit-Learn, served with Flask, and depl
 
 ![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey)
 ![Made with Flask](https://img.shields.io/badge/Backend-Flask-yellow)
-![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Library-Pandas-150458?logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/Library-NumPy-013243?logo=numpy&logoColor=blue)
-![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-20232A?logo=matplotlib&logoColor=white)
+![Python](https://img.shields.io/badge/Language-Python-blue?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Library-Pandas-lightyellow?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/Library-NumPy-darkgreen?logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Library-Matplotlib-seablue?logo=matplotlib&logoColor=white)
 ![Deployed on Render](https://img.shields.io/badge/Hosted%20on-Render-green)
 
 
