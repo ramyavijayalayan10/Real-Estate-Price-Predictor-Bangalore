@@ -46,7 +46,7 @@ It contains the complete machine learning pipeline:
 - 🧠 Model Selection & Training (Linear Regression)
 - 📦 Exporting model as `.pkl` for Flask usage
 
-📁 See notebooks and scripts: Please Refer to the **google drive** link in the **resume** for Python scripts, Frontend (.html, .css, .js) and Flask code
+📁 See **notebooks** and **scripts**: Please Refer to the **google drive** link in the **resume** for Python scripts, Frontend (.html, .css, .js) and Flask code
 
 ---
 
