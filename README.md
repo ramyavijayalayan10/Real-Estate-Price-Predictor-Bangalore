@@ -14,14 +14,14 @@ Built using Google Colab, trained with Scikit-Learn, served with Flask, and depl
 
 ---
 
-## 🎬 Demo
+##  Demo
 
 📺 [Watch the demo video](https://drive.google.com/file/d/1dGGUK3N-_cF-3VbmxPXIMtNvbxpqAMn5/view?usp=sharing) 
 🌐 [Try the live app](https://real-estate-house-price-predictor.onrender.com/)
 
 ---
 
-## 🧠 About the Project
+##  About the Project
 
 This web app allows users to estimate housing prices in Bangalore by inputting:
 
@@ -34,23 +34,23 @@ The model was trained on real housing data, cleaned and engineered inside a Goog
 
 ---
 
-## 📊 Model Training & EDA
+##  Model Training & EDA
 
 This notebook was originally developed in **Google Colab** and later adapted for local execution. 
 It contains the complete machine learning pipeline:
 
-- ✅ Data Wrangling
-- 📈 Exploratory Data Analysis (EDA)
-- ✂️ Outlier Removal
-- 🧪 Feature Engineering
-- 🧠 Model Selection & Training (Linear Regression)
-- 📦 Exporting model as `.pkl` for Flask usage
+- Data Wrangling
+- Exploratory Data Analysis (EDA)
+- Outlier Removal
+- Feature Engineering
+- Model Selection & Training (Linear Regression)
+- Exporting model as `.pkl` for Flask usage
 
 📁 See **notebooks** and **scripts**: Please Refer to the **google drive** link in the **resume** for Python scripts, Frontend (.html, .css, .js) and Flask code
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 | Layer      | Technology Used              |
 |------------|------------------------------|
@@ -62,7 +62,7 @@ It contains the complete machine learning pipeline:
 | Demo Video | Google Drive |
 
 ---
-## 🧰 Development Tools & Environments
+## Development Tools & Environments
 
 This project was designed and tested using:
 
@@ -75,7 +75,7 @@ This project was designed and tested using:
 Compatible with local systems using Jupyter, VS Code, or any Python-supported IDE.
 
 ---
-## 📁 Folder Structure
+## Project Structure
 
 ```bash
 bangalore-real-estate-price-predictor/
@@ -102,7 +102,7 @@ bangalore-real-estate-price-predictor/
 └── README.md             # Project overview and setup
 ```
 
-## 📜 License
+## License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.  
 View full terms in [LICENSE.md](LICENSE.md) or [here](https://creativecommons.org/licenses/by-nc-nd/4.0/)
