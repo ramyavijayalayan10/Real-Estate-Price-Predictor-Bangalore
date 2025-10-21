@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bangalore House Price Predictor </title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='App.css') }}" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='App.js') }}"></script>
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="form-container">
+    <h1>🏠 Bangalore House Price Predictor </h1>
+
+    <label for="uiSqft">Area (sq ft)</label>
+    <input type="text" id="uiSqft" name="total_sqft" value="1000" />
+
+    <label>BHK</label>
+    <div class="switch-field">
+      <input type="radio" id="radio-bhk-1" name="uiBHK" value="1" />
+      <label for="radio-bhk-1">1</label>
+      <input type="radio" id="radio-bhk-2" name="uiBHK" value="2" checked />
+      <label for="radio-bhk-2">2</label>
+      <input type="radio" id="radio-bhk-3" name="uiBHK" value="3" />
+      <label for="radio-bhk-3">3</label>
+      <input type="radio" id="radio-bhk-4" name="uiBHK" value="4" />
+      <label for="radio-bhk-4">4</label>
+      <input type="radio" id="radio-bhk-5" name="uiBHK" value="5" />
+      <label for="radio-bhk-5">5</label>
+    </div>
+
+    <label>Bathrooms</label>
+    <div class="switch-field">
+      <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1" />
+      <label for="radio-bath-1">1</label>
+      <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked />
+      <label for="radio-bath-2">2</label>
+      <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3" />
+      <label for="radio-bath-3">3</label>
+      <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4" />
+      <label for="radio-bath-4">4</label>
+      <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5" />
+      <label for="radio-bath-5">5</label>
+    </div>
+
+    <label for="uiLocations">Location</label>
+    <select id="uiLocations">
+      <option disabled selected>Choose a Location</option>
+    </select>
+
+
+    <button onclick="onClickedEstimatePrice()" type = "button">Estimate Price</button>
+    <button onclick="onClickedResetForm()" type="button">Reset Form</button>
+    <div id="uiEstimatedPrice" class="result"></div>
+  </div>
+</body>
+</html>
